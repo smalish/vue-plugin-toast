@@ -1,0 +1,27 @@
+{
+  "name": "vue-yy-toast",
+  "version": "1.0.0",
+  "main": "dist/vue-yy-toast.umd.min.js",
+  "private": false,
+  "author": {
+    "name": "yangying"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib lib/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "smarty-ui": "^0.1.2",
+    "vue": "^2.6.11",
+    "vue-yy-toast": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
